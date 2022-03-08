@@ -1,0 +1,64 @@
+/* Template from:
+   https://mdbootstrap.com/docs/standard/extended/registration/
+*/
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-attachment: cover;
+}
+
+.current_start_date {
+  font-size: 10px;
+}
+
+body {
+  background: -webkit-linear-gradient(
+    to bottom right,
+    rgb(255, 255, 255),
+    rgb(142, 240, 183)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to bottom right,
+    rgb(255, 255, 255, 1),
+    rgb(142, 240, 183, 1)
+  );
+
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 1px;
+}
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+.form-outline {
+  border-color: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+.textarea:focus,
+input:focus {
+  outline: none;
+}
