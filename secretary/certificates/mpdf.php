@@ -914,8 +914,8 @@ if (isset($_POST['generate_cedula'])) {
   $mpdf->setAutoTopMargin = 'stretch';
   $mpdf->SetDisplayMode('fullpage');
 
-  $mpdf->SetDefaultBodyCSS('background', "url('cedula.jpg')");
-  $mpdf->SetDefaultBodyCSS('background-image-resize', 6);
+//   $mpdf->SetDefaultBodyCSS('background', "url('cedula.jpg')");
+//   $mpdf->SetDefaultBodyCSS('background-image-resize', 6);
 
   //Year
   $mpdf->WriteFixedPosHTML($year, 6, 16.5, 30, 30, 'auto');
