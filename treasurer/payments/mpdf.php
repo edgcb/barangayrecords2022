@@ -70,7 +70,7 @@ if (isset($_POST['generate_taxreceipt'])) {
   $mpdf->setAutoTopMargin = 'stretch';
   $mpdf->SetDisplayMode('fullpage');
 
-  $mpdf->SetDefaultBodyCSS('background', "url('receipt.jpg')");
+//   $mpdf->SetDefaultBodyCSS('background', "url('receipt.jpg')");
   $mpdf->SetDefaultBodyCSS('background-image-resize', 6);
 
   // Date
