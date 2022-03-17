@@ -910,9 +910,9 @@ if (isset($_POST['generate_cedula'])) {
 
   $issuedate = date("m/d/Y");
 
-  $mpdf->useSubstitutions = false;
-  $mpdf->setAutoTopMargin = 'stretch';
-  $mpdf->SetDisplayMode('fullpage');
+//   $mpdf->useSubstitutions = false;
+//   $mpdf->setAutoTopMargin = 'stretch';
+//   $mpdf->SetDisplayMode('fullpage');
 
 //   $mpdf->SetDefaultBodyCSS('background', "url('cedula.jpg')");
 //   $mpdf->SetDefaultBodyCSS('background-image-resize', 6);
