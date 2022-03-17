@@ -111,7 +111,7 @@ $result1 = mysqli_query($conn, $query1);
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="citizenrecords.php">
+                <a class="nav-link collapsed" href="barangaypayments.php">
                     <!-- DRAFT -->
                     <!-- data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" -->
                     <i class="fa fa-address-card"></i>
@@ -128,7 +128,7 @@ $result1 = mysqli_query($conn, $query1);
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="barangaycertificates.php">
+                <a class="nav-link collapsed" href="financialrecords.php">
                     <!-- DRAFT -->
                     <!-- data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" -->
                     <i class="fa fa-list-ul"></i>
@@ -969,7 +969,7 @@ $result1 = mysqli_query($conn, $query1);
 <head>
     <link rel="stylesheet" a href="../bootstrap-5.1.1-dist/css/bootstrap.css" />
     <title>
-        Treasurer - Barangay Records Management
+        Treasurer -   Records Management
     </title>
 </head>
 
